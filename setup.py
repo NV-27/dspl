@@ -2,7 +2,7 @@ import os
 import os.path
 from setuptools import setup, find_packages
 
-with open("README.md") as f:
+with open("README.md", "r") as f:
     readme = f.read()
 
 def find_requires():
@@ -15,17 +15,17 @@ def find_requires():
 setup(
     name="dspl",
     packages=["dspl"],
-    version="0.0.3",
-    install_required=find_requires(),
-    zip_safe=True,
+    version="0.0.4",
+    include_package_data=True,
+    install_requires=find_requires(),
     author="Nikita Varganov",
     author_email="nikita.varganov.ml@gmail.com",
     license="MIT",
     description="Library for using in DS-Platform",
     url="https://github.com/NV-27/dspl",
-    download_url="https://github.com/NV-27/dspl/archive/0.0.3.tar.gz",
+    download_url="https://github.com/NV-27/dspl/archive/0.0.4.tar.gz",
     keywords=["dspl", "ds_platform", "ds_template"],
-    ling_description=readme,
+    long_description=readme,
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Programming Language :: Python :: 3.6",
