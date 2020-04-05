@@ -17,7 +17,7 @@ setup(
     license="MIT",
     description="Library for using in DS-Platform",
     url="https://github.com/NV-27/dspl",
-    download_url="https://github.com/NV-27/dspl/archive/v_01.tar.gz",
+    download_url="https://github.com/NV-27/dspl/archive/0.0.1.tar.gz",
     keywords=["dspl", "ds_platform", "ds_template"],
     ling_description=readme,
     classifiers=[
