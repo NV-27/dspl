@@ -6,7 +6,7 @@ with open("./requirements.txt", "r") as f:
 setup(
     name="dspl",
     packages=["dspl"],
-    version="0.0.8",
+    version="0.0.9",
     include_package_data=True,
     install_requires=required,
     author="Nikita Varganov",
@@ -14,7 +14,7 @@ setup(
     license="MIT",
     description="Library for using in DS-Platform",
     url="https://github.com/NV-27/dspl",
-    download_url="https://github.com/NV-27/dspl/archive/0.0.8.tar.gz",
+    download_url="https://github.com/NV-27/dspl/archive/0.0.9.tar.gz",
     keywords=["dspl", "ds_platform", "ds_template"],
     classifiers=[
         "Development Status :: 3 - Alpha",
