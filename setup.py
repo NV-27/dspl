@@ -1,16 +1,22 @@
+import os
+import os.path
 from setuptools import setup, find_packages
-
-with open("requirements.txt") as f:
-    required = f.read().splitlines()
 
 with open("README.md") as f:
     readme = f.read()
+
+def find_requires():
+    dir_path = os.path.dirname(os.path.realpath(__file__))
+    requirements = []
+    with open("{0}/requirements.txt".format(dir_path), "r") as reqs:
+        requirements = reqs.readlines()
+    return requirements    
 
 setup(
     name="dspl",
     packages=["dspl"],
     version="0.0.2",
-    install_required=required,
+    install_required=find_requires(),
     zip_safe=True,
     author="Nikita Varganov",
     author_email="nikita.varganov.ml@gmail.com",
