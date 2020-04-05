@@ -6,7 +6,7 @@ requirements = [
     'backcall==0.1.0',
     'bayesian-optimization==1.0.1',
     'bcrypt==3.1.7',
-    'bleach==3.1.0',
+    'bleach==3.1.4',
     'catboost==0.18.1',
     'cffi==1.13.2',
     'cloudpickle==1.2.1',
