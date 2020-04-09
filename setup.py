@@ -99,7 +99,7 @@ requirements = [
 setup(
     name="dspl",
     packages=["dspl"],
-    version="0.0.12",
+    version="0.0.13",
     include_package_data=True,
     install_requires=requirements,
     author="Nikita Varganov",
@@ -107,7 +107,7 @@ setup(
     license="MIT",
     description="Library for using in DS-Platform",
     url="https://github.com/NV-27/dspl",
-    download_url="https://github.com/NV-27/dspl/archive/0.0.12.tar.gz",
+    download_url="https://github.com/NV-27/dspl/archive/0.0.13.tar.gz",
     keywords=["dspl", "ds_platform", "ds_template"],
     classifiers=[
         "Development Status :: 3 - Alpha",
