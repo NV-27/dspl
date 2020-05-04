@@ -1,4 +1,4 @@
 from dspl.validation import DataSplitter
 from dspl.wrapper import ModelWrapper
 
-__version__ = "0.0.13"
+__version__ = "0.0.14"
